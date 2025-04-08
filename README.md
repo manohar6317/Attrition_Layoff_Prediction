@@ -6,8 +6,6 @@ This repository contains a project focused on predicting employee attrition (vol
 
 ## Overview
 
-The core of this project is implemented in the `Attrition_Layoff_Prediction.ipynb` Jupyter Notebook. This notebook likely includes the following steps:
-
 * **Data Loading and Exploration:** Loading relevant employee data and performing exploratory data analysis (EDA) to understand the dataset, identify patterns, and visualize key relationships.
 * **Feature Engineering:** Creating new features or transforming existing ones to improve the performance of the prediction models. This might involve handling categorical variables, scaling numerical features, or creating interaction terms.
 * **Model Building and Training:** Implementing and training various machine learning models suitable for binary classification tasks (predicting whether an employee will leave or stay, or whether a layoff is likely). Common models include Logistic Regression, Support Vector Machines, Random Forests, Gradient Boosting, etc.
@@ -27,7 +25,7 @@ The core of this project is implemented in the `Attrition_Layoff_Prediction.ipyn
 To run and explore this project, you will need to have the following installed:
 
 * **Python 3.x**
-* **Jupyter Notebook**
+* **Jupyter Notebook**  
 * **Required Python Libraries:** You can install the necessary libraries using pip. It's recommended to create a virtual environment to manage dependencies.
 
     ```bash
