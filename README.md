@@ -23,31 +23,34 @@ This repository contains a project focused on predicting employee attrition (vol
 
 To run and explore this project, you will need to have the following installed:
 
-* **Python 3.x**
-* **Required Python Libraries:** You can install the necessary libraries using pip. It's recommended to create a virtual environment to manage dependencies.
+* **Python 3.12.0**
+* **Required Python Libraries:** You can install the necessary libraries using pip. It's recommended to create a virtual environment to manage dependencies.Install the following
 
     ```bash
-    pip install pandas numpy scikit-learn matplotlib seaborn
+    pip install scikit-learn==1.5.0
     ```
-
-    You might need to install additional libraries depending on the specific models and techniques used in the notebook. Check the import statements at the beginning of the `Attrition_Layoff_Prediction.ipynb` file for a complete list.
+  ```bash
+    pip install flask==3.0.3
+    ```
+  ```bash
+    pip install pandas==2.2.2
+    ```
+  ```bash
+    pip install numpy==1.26.4
+    ```
 
 ## Usage
 
-1.  **Clone the repository:**
+1.  **Download th ZIP File:**
+
+2.  **Navigate to the Parent Directory: Run the Following Command**
     ```bash
-    git clone [https://github.com/manohar6317/Attrition_Layoff_Prediction.git](https://www.google.com/search?q=https://github.com/manohar6317/Attrition_Layoff_Prediction.git)
-    cd Attrition_Layoff_Prediction
+    python app.py
     ```
 
-2.  **Navigate to the notebook:**
-    ```bash
-    jupyter notebook Attrition_Layoff_Prediction.ipynb
-    ```
+3.  **Use the available datasets provided in zip file for testing:** 
 
-3.  **Run the notebook cells:** Open the `Attrition_Layoff_Prediction.ipynb` file in Jupyter Notebook and execute the cells sequentially to understand the data processing, model building, and evaluation steps.
-
-4.  **Explore the results:** Analyze the output of the notebook to understand the model's predictions and the insights derived from the analysis.
+4.  **Explore the results:** Analyze the output  to understand the model's predictions and the insights derived from the analysis.
 
 ## Potential Improvements and Future Work
 
@@ -63,10 +66,6 @@ To run and explore this project, you will need to have the following installed:
 
 Contributions to this project are welcome. If you have suggestions for improvements, bug fixes, or new features, please feel free to open an issue or submit a pull request.
 
-## License
-
-[Specify the license under which this project is distributed. For example: MIT License]
 
 ---
 
-**Note:** This README is based on the assumption that the `Attrition_Layoff_Prediction.ipynb` file contains the core logic. You might need to adjust the "Repository Contents" and "Usage" sections based on the actual structure and content of your repository. If your data is not included, provide clear instructions on how to obtain or use it.
