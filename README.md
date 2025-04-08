@@ -14,7 +14,6 @@ This repository contains a project focused on predicting employee attrition (vol
 
 ## Repository Contents
 
-* **`Attrition_Layoff_Prediction.ipynb`:** The main Jupyter Notebook containing the complete implementation of the attrition and layoff prediction project. This includes data preprocessing, model building, training, and evaluation.
 * **`README.md`:** This file, providing an overview of the project and instructions for understanding and potentially running the code.
 * **`/data` (Optional):** This directory might contain the dataset(s) used for training and testing the models. If the data is sensitive or proprietary, it might not be included in the repository and instructions on how to obtain or use it would be provided here.
 * **`/models` (Optional):** This directory could store any saved trained models for later use or deployment.
@@ -25,7 +24,6 @@ This repository contains a project focused on predicting employee attrition (vol
 To run and explore this project, you will need to have the following installed:
 
 * **Python 3.x**
-* **Jupyter Notebook**  
 * **Required Python Libraries:** You can install the necessary libraries using pip. It's recommended to create a virtual environment to manage dependencies.
 
     ```bash
