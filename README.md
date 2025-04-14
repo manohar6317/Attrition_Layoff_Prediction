@@ -12,6 +12,39 @@ This repository contains a project focused on predicting employee attrition (vol
 * **Model Evaluation:** Evaluating the performance of the trained models using appropriate metrics such as accuracy, precision, recall, F1-score, and AUC.
 * **Interpretation and Insights:** Analyzing the model results to identify the most important factors influencing attrition and potential layoffs.
 
+
+## Screenshots
+
+**Home page**
+
+![Signup Page Screenshot](images/home.png)
+
+**Login Page**
+
+![Login Page Screenshot](images/login.png)
+
+**upload Page**
+
+![Home Page Screenshot](images/upload.png)
+
+**preview Page**
+
+![Browse Page Screenshot](images/preview.png)
+
+**prediction Page**
+
+![Browse Page Screenshot](images/prediction.png)
+
+**result Page**
+
+![Browse Page Screenshot](images/result.png)
+
+**chart Page**
+
+![Browse Page Screenshot](images/chart.png)
+
+
+
 ## Repository Contents
 
 * **`README.md`:** This file, providing an overview of the project and instructions for understanding and potentially running the code.
